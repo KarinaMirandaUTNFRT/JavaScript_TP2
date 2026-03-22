@@ -2,6 +2,7 @@
 const pantalla = document.getElementById("pantalla");
 const filas = parseInt(prompt("Ingresa numero de filas"));
 const columnas = parseInt(prompt("Ingresa numero de columnas"));
+let celda = filas * columnas
 
 //for (let indiceFilas = 1; indiceFilas <= filas; indiceFilas++) //bucles anidados
   //pantalla.innerHTML += `<tr>`;
@@ -10,12 +11,15 @@ const columnas = parseInt(prompt("Ingresa numero de columnas"));
   //pantalla.innerHTML += `<td>1</td>`; //va generando cada td (columnas)
   //}
   //pantalla.innerHTML += `</tr>`;
+
+  //con document.writln
+
 document.writeln('<table class="table table-striped"> <tbody id= "pantalla">')
 for (let indiceFilas = 1; indiceFilas <= filas; indiceFilas++){ //bucles anidados
   document.writeln(`<tr>`)
   for (let indiceColumnas = 1; indiceColumnas <= columnas; indiceColumnas++)
   {
-  document.writeln(`<td>1</td>`)
+  document.writeln(`<td>${celda--}</td>`)
   }
   document.writeln(`</tr>`)
 }
