@@ -1,11 +1,11 @@
-let resultado = "";
-let continuar = true;
+let resultado = ""; //en esta la variable se  va a guardar un texto concatenado y comienza vacio
+let continuar = true; //le asigna el valor verdadero (booleano).Mientras continuar sea true, el ciclo se repite.
 
 while (continuar) {
   let texto = prompt("Ingresa una cadena de texto:");
 
   // Si el usuario presiona cancelar en prompt
-  if (texto === null) {
+  if (texto === null) { //cuando presiona el boton cancelar
     break;
   }
 
