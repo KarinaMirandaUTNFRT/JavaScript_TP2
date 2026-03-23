@@ -3,7 +3,7 @@ const nota = parseFloat(prompt("Ingresa la nota"));
 if (isNaN(nota)) {
   alert("Introduce un numero valido");
 } else if (nota < 0 || nota > 10) {
-  alert("Numero erroneo ( debe ser un valor entre 0 y 10");
+  alert("Numero erroneo ( debe ser un valor entre 0 y 10) ");
 } else {
   if (nota > 0 && nota <= 2) {
     alert("Muy deficiente");
