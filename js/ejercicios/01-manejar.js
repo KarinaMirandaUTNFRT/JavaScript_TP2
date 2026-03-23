@@ -7,5 +7,5 @@ if (isNaN(edad)){
     alert('ya eres mayor de edad para conducir' )
  }
  else {
-     alert('No tienenedad para conducir' )
+     alert('No tienes edad para conducir' )
  }
