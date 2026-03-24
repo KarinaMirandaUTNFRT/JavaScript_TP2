@@ -12,7 +12,7 @@ if (cadena !== null) {
     console.log(resultado);
 }
 
-
+//usando array y join
 //if (cadena !== null) {
     //const resultado = cadena.split('').join('-');
     // split('') -> Convierte el texto "HOLA" en ['H', 'O', 'L', 'A']
